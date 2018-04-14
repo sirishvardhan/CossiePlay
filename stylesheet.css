@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	
+}
+
+body {
+	background-color: lightgreen;
+	}
+
+header {
+	height: 120px;
+	width: 100%;
+	background:lightgreen(to left, #1B3962, white);
+}
+
+header h1 {
+	color: black;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+}
+
+header h1 {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#navBar {
+	width: 100%;
+	height: 40px;
+	background-color: white;
+}
+
+#navBar ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 4px 50px;
+}
+
+#navBar ul li:hover {
+	background-color: #112540;
+	color: black;
+	text-decoration: underline;
+}
+
+#navBar a {
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	width: 100%;
+}
+
+.mainBody {
+	width: 95%;
+	margin: 5px 40px;
+	
+}
+
+.mainBody #img1{
+	float: left;
+	padding: 10px;
+}
+
+.mainBody h1 {
+	text-align: center;
+	color: black;
+}
+
+.mainBody h2 {
+	text-align: center;
+}
+
+.mainBody h3 {
+	text-align: center;
+} 
+
+.mainBody .big {
+	text-align: center;
+}
+
+.mainBody .biglink {
+	text-decoration: none;
+	color: indianred;
+	font-size: 50px;
+}
+
+.mainBody .biglink:hover {
+	color: red;
+	font-weight: bold;
+}
+
+.mainBody p {
+	padding: 20px;
+	font-size: 20px;
+}
+
+.otherPages {
+	margin: 5px 30px;
+	padding: 5px 20px;
+}
+
+#aboutPage h1, h3{
+	text-align: center;
+}
+
+#aboutPage h1 {
+	color: black;
+}
+
+#aboutPage p {
+	font-size: 20px;
+	padding: 5px 30px;
+}
+
+#aboutPage a {
+	color: black;
+	text-decoration: none;
+}
+
+#aboutPage a:hover {
+	color: black;
+}
+
+#contactPage h1 {
+	text-align: center;
+	color: black;
+}
+
+#eventPage #img2 {
+	float: right;
+	padding-left: 10px;
+}
+
+#eventPage h1 {
+	text-align: center;
+	color: black;
+}
+
+#eventPage a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+#eventPage a:hover {
+	color: black;
+	font-weight:bolder;
+}
+
+#signupPage {
+	text-align: center;
+}
+
+#itemsPage h1 {
+	color: black;
+	text-align: center;
+}
+
+#itemsPage p {
+	font-size: 20px;
+	padding: 0px 50px;
+}
+
+#items {
+	width: 100%;
+	margin: 0px 50px 10px 300px;
+	float:left;
+}
+
+#itemsTable {
+	width: 50%;
+	padding: 30px;
+}
+
+#itemsTable td, th {
+	text-align: left;
+	padding: 10px;
+}
+
+#itemsTable th {
+	color: black;
+}
+
+#itemsTable img {
+	width: 250px;
+	height: 350px;
+	display: block;
+}
+
+#announcementsPage h1 {
+	color: black;
+	text-align: center;
+}
+
+#announcementsPage p {
+	padding: 10px 80px;
+	font-size: 30px;
+}
+
+footer {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	padding-top: 10px;
+	margin: 0px;
+	color: black;
+	height: 40px;
+	text-align: center;
+	background-color:white;
+	width:100%; clear:both;
+	position:relative;
+	bottom: 0;
+}
+
